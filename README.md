@@ -52,12 +52,13 @@ Jogo-da-Memoria
 
 ## ▶️ Como Jogar
 
-Acesse o resultado final da página 👉 
+Acesse o resultado final da página 👉 https://arthurrosa1.github.io/Jogo-da-Memoria/
 
 ---
 ## ⭐‍ Se gostou…
 
 Deixe uma ⭐ no repositório! Isso me ajuda a continuar evoluindo 👨‍💻✨
+
 
 
 
