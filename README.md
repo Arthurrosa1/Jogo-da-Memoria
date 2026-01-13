@@ -17,7 +17,7 @@ Este projeto é uma ótima forma de praticar lógica, manipulação de DOM, even
 
 O projeto está organizado da seguinte forma:
 
-Jogo-da-Memoria/
+Jogo-da-Memoria
 
 ├── src/
 
@@ -58,6 +58,7 @@ Acesse o resultado final da página 👉
 ## ⭐‍ Se gostou…
 
 Deixe uma ⭐ no repositório! Isso me ajuda a continuar evoluindo 👨‍💻✨
+
 
 
 
