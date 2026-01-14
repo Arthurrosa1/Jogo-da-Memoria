@@ -28,9 +28,16 @@ function playSound() {
 
 function playSound2() {
     let audio = new Audio("./src/sound/error.m4a");
-    audio.volume = 0.5;
+    audio.volume = 0.3;
     audio.play();
 }
+
+function playSound3() {
+    let audio = new Audio("./src/sound/correct.m4a");
+    audio.volume = 0.3;
+    audio.play();
+}
+
 
 for(let i = 0; i < emojis.length; i++){
     let box = document.createElement("div");
@@ -57,6 +64,7 @@ function checkMatch(){
     if(openCards[0].innerHTML === openCards[1].innerHTML){
         openCards[0].classList.add("boxMatched"); 
         openCards[1].classList.add("boxMatched"); 
+        playSound3();
     } else {
         openCards[0].classList.remove("boxOpen"); 
         openCards[1].classList.remove("boxOpen"); 
