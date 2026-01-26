@@ -93,3 +93,71 @@ h2 {
 .boxMatched::after {
     transform: rotateY(180deg);
 }
+
+@media (max-width: 900px) {
+    .game {
+        width: 360px;
+        height: 360px;
+        gap: 8px;
+    }
+
+    .item {
+        width: 80px;
+        height: 80px;
+        font-size: 2.2em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px 30px;
+        gap: 20px;
+    }
+
+    .game {
+        width: 300px;
+        height: 300px;
+        gap: 6px;
+    }
+
+    .item {
+        width: 65px;
+        height: 65px;
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    .reset {
+        font-size: 1.2em;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .game {
+        width: 250px;
+        height: 250px;
+        gap: 5px;
+    }
+
+    .item {
+        width: 55px;
+        height: 55px;
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .reset {
+        font-size: 1em;
+    }
+}
